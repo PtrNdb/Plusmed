@@ -1,0 +1,616 @@
+{% extends 'baza.html' %}
+
+        
+{% block content %}
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">PIŁKI</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">PODUSZKI</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">MASAŻERY</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false">ROTORY</a>
+  </li>
+</ul>
+
+<div class="tab-content">
+  <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+    <div class="card border-light">
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>Żelowa piłeczka rehabilitacyjna</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/pilki.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/pilki.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                            <a class="card-text"><small>ŻELOWA PIŁECZKA REHABILITACYJNA<br>
+                            <br>
+                            • Trzy stopnie sprężystości,<br>
+                            • Szerokie zastosowanie,<br>
+                            • Wysoka trwałość,<br>
+                            <br>
+                            Żelowa piłeczka do ćwiczeń znakomicie nadaje się do ćwiczeń siły mięśni dłoni i
+                            przedramienia. Ma także działanie przeciw stresowe, rytmiczne uciskanie relaksuje i uspokaja.</small></a>
+                                <br><br><u>Producent: MDH</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>Lacrosse Ball piłka do masażu punktowego</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/pilki1.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/pilki1.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                            <a class="card-text"><small>Lacrosse Ball silikonowa piłka do masażu punktowego<br>
+                            <br>
+                            • Zapewnia efektywny masaż wybranych partii ciała<br>
+                            • Redukuje bóle i napięcia mięśni<br>
+                            • Podręczna i łatwa w użyciu<br>
+                            <br>
+                            Jest to klasyczna piłka do punktowego i precyzyjnego automasażu wybranych partii ciała,
+                            która gwarantuje dogłębny relaks mięśni i powięzi. 
+                            Odpowiednio wykonywane ćwiczenia z użyciem piłki zmniejszają napięcie mięśniowe,
+                            pozwalają zniwelować miejscowe dolegliwości bólowe oraz przywracają prawidłową prace spiętych mięśni,
+                            co przyczynia się do szybszej regeneracji oraz stanowi swoistą profilaktykę przed urazami.</small></a>
+                                <br><br><u>Producent: MDH</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>LACROSSE DUO BALL mini wałek rehabilitacyjny do masażu</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/pilki2.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/pilki2.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                            <a class="card-text"><small>Lacrosse Duo Ball silikonowy wałek do masażu<br>
+                            <br>
+                            • Zapewnia efektywny masaż pleców, rąk i nóg<br>
+                            • Redukuje bóle i napięcia mięśni<br>
+                            • Zmniejsza uczucie zmęczenia<br>
+                            • Do stosowania przed i po treningu,<br>
+                            <br>
+                            To specjalnie zaprojektowany wałek masujący w kształcie połączonych ze sobą dwóch piłeczek. 
+                            Wyjątkowa forma produktu, gwarantuje głęboki masaż mięśni przykręgosłupowych, 
+                            jednocześnie zapewniając odciążenie poszczególnych struktur. Rozbija napięcie w splotach mięśniowych, 
+                            punktach spustowych i powięziach. Jest to proste i bardzo pomocne narzędzie  
+                            w mobilizacji kręgosłupa i zwiększeniu jego elastyczności. </small></a>
+                                <br><br><u>Producent: MDH</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>Dynamiczna poduszka do siedzenia DYNAPAD</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/pilki3.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/pilki3.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                            <a class="card-text"><small>Dynamiczna poduszka do siedzenia „DYNAPAD” przeznaczona jest 
+                            do korygowania wad postawy oraz wzmocnienia mięśni grzbietu. Odciąża odcinek lędźwiowy 
+                            kręgosłupa podczas siedzenia i wymusza siedzenie w prawidłowej pozycji, stymuluje mikro-ruchy 
+                            krążków międzykręgowych. Szczególnie polecana dla osób, które dużo siedzą.<br>
+                            <br>
+                            • Idealna do korygowania wad postawy,<br>
+                            • Redukuje napięcia w czasie siedzenia i wzmacnia różne grupy mięśniowe,<br>
+                            • Idealna do masażu stóp oraz ćwiczeń równoważnych,<br></small></a>
+                                <br><br><u>Producent: ARMEDICAL</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>Piłeczka rehabilitacyjna z kolcami</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/pilki4.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/pilki4.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                            <a class="card-text"><small>Piłeczka rehabilitacyjna z kolcami przeznaczona jest do ćwiczeń,
+                            rehabilitacji oraz masażu dłoni. Dzięki miękkim wypustkom (kolcom) pobudza receptory czuciowe,
+                            poprawia ukrwienie. Służy również do masażu różnych części ciała. Dzięki swej plastyczności 
+                            stosowana również jako piłka antystresowa. Wyposażona w wentylek do regulowania twardości.<br>
+                            <br>
+                            • Idealna do ćwiczeń oraz masażu dłoni<br></small></a>
+                                <br><br><u>Producent: ARMEDICAL</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>Piłka rehabilitacyjna masująca MIDI</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/pilki5.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/pilki5.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                            <a class="card-text"><small>Piłka rehabilitacyjna masująca „MIDI” przeznaczona jest do terapii
+                            mającej na celu poprawę kondycji i koordynacji ruchowej. Doskonała dla osób chcących zachować 
+                            sprawność fizyczną dzięki treningowi ogólnorozwojowemu. Dzięki miękkim, masującym wypustkom na 
+                            całej powierzchni stymuluje strefy reflektoryczne (receptory) na skórze działając pobudzająco. 
+                            Idealna do zabawy dla dzieci.<br>
+                            <br>
+                            • Idealna do zabawy,<br>
+                            • Idealna do rehabilitacji kolan oraz łokci,<br>
+                            • Idealna do rehabilitacji i ćwiczeń ogólnorozwojowych.</small></a>
+                                <br><br><u>Producent: ARMEDICAL</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>Piłka rehabilitacyjna z systemem ABS</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/pilki6.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/pilki6.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                            <a class="card-text"><small>Piłka rehabilitacyjna służy do ćwiczeń wzmacniających mięśnie grzbietu,
+                            zwiększających ruchomość w stawach, poprawiających kondycję oraz koordynację ruchową. 
+                            Jest przyrządem przeznaczonym do terapii schorzeń neurologicznych, a także korekcji wad postawy.
+                            Piłkę można użytkować w pomieszczeniach na twardej i płaskiej powierzchni. Można ją również stosować 
+                            jak taboret do siedzenia, np. przy biurku, przed telewizorem, komputerem.<br>
+                            <br>
+                            • Dopuszczalne obciążenie do 150 kg,<br>
+                            • System ABS zapobiegający rozerwaniu i nagłej utracie powietrza podczas uszkodzenia mechanicznego.</small></a>
+                                <br><br><u>Producent: MDH</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+    <div class="card border-light">
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>Poduszka ortopedyczna</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/poduszka.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/poduszka.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                            <a class="card-text"><small>W ofercie naszego Salonu posiadamy poduszki kilku firm m.in. VALDE, SISSEL, THUASNE. 
+                            Różni je wysokość, pianka, twardość. Dobór poduszki o odpowiedniej wysokości jest podstawą jej prawidłowego i skutecznego działania
+                            i powinien być przeprowadzony indywidualnie dla każdego użytkownika. <br>
+                            Profilacja i kształt poduszki ortopedycznej, dopasowany do anatomii człowieka i uwzględniający naturalną krzywiznę
+                            kręgosłupa delikatnie lecz skutecznie wspiera szyję i odciąża ten odcinek kręgosłupa i rozluźnia napięte mięśnie.
+                            <br>
+                            </small></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>Klin ortopedyczny SITTA</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/poduszka1.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/poduszka1.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                           <a class="card-text"><small>Wykonany z pianki wysoko-sprężystej (VNF) o idealnym stopniu twardości.
+                                Sitta posiada kanały wentylacyjne, dzięki czemu podwyższa standard podczas siedzenia poprzez obieg powietrza.
+                                Klin ten zalecany jest mężczyznom, a szczególnie tym, którzy większość czasu spędzają siedząc (praca biurowa,
+                                długie podróże samochodem). Klin Sitta wymusza na siedzącym poprawną pozycję, odciążając mięśnie kręgosłupa.
+                                S1 został zaprojektowany tak, aby można było stosować go do każdego siedziska (krzesło, fotel samochodowy,
+                                    fotel biurowy).</small></a>
+                            <br><br><u>Producent: VALDE</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>Klin ortopedyczny CIRKEL</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/poduszka2.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/poduszka2.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                           <a class="card-text"><small> Klin wymusza poprawną pozycję podczas siedzenia, 
+                            odciążając mięśnie kręgosłupa. Zalecany jest kobietom w ciąży oraz po porodzie.
+                            Wykonany z najwyższej jakości pianki wysoko-sprężystej o idealnie dobranym stopniu twardości.
+                            Klin polecany również dla kobiet poruszających się wózkiem inwalidzkim.</small></a>
+                            <br><br><u>Producent: VALDE</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>TRAVELING PILLOW poduszka podróżna</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/poduszka3.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/poduszka3.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                           <a class="card-text"><small>Odpowiednio wyprofilowana poduszka zapewnia stabilizację odcinka
+                            szyjnego kręgosłupa z zachowaniem jego fizjologicznej krzywizny oraz odciąża struktury kostno stawowe,
+                            więzadłowe i mięśniowe. Poduszka zalecana jest przez specjalistów medycznych dla dzieci powyżej 
+                            3 roku życia i dorosłych w stanach przeciążeniowych odcinka szyjnego kręgosłupa związanych z
+                            nadmiernym napięciem mięśni szyi i karku, w przypadku niestabilności kręgów szyjnych, chorobie 
+                            zwyrodnieniowej kręgosłupa, a także jako profilaktyka zmian przeciążeniowych i strukturalnych.</small></a>
+                            <br><br><u>Producent: MDH</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>Krążki przeciwodleżynowe</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/poduszka4.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/poduszka4.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                           <a class="card-text"><small>Krążki przeciwodleżynowe powinny być stosowane głównie profilaktycznie zapobiegając powstawaniu odleżyn oraz przy ich leczeniu.
+                            Otwór w środku krążka zapewnia stały dostęp powietrza do zagrożonej odleżynami powierzchni skóry.
+                            Większe rozmiary krążków są stosowane w celu odciążenia kości ogonowej pacjenta.</small></a>
+                            <br><br><u>Producent: HALCAMP</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>Poduszka BABY PILLOW</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/poduszka5.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/poduszka5.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                           <a class="card-text"><small>Ergonomiczny kształt poduszki zapewnia dziecku optymalne podparcie główki
+                            i komfortowe warunki do snu. Skutecznie zmniejsza punktowy nacisk główki na podłoże. Niweluje i
+                            zapobiega pogłębianiu się dalszych zniekształceń takich jak plagiocefalia czy brachycefalia.
+                            Wykonana z pianki leniwej , która reagując na temperaturę ciała, dostosowuje się do niemowlęcia,
+                            zapewniając optymalne podparcie i ułożenie główki.</small></a>
+                            <br><br><u>Producent: MDH</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+    <div class="card border-light">
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>Wałek do rehabilitacji</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/masazer.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/masazer.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                           <a class="card-text"><small>Wałek przeznaczony jest do:<br>
+                            • Pobudzania stref refleksogennych,<br>
+                            • Do ćwiczeń i terapii - zwłaszcza stóp,<br>
+                            • Do poprawy krążenia krwi jak również do relaksacyjnego masażu całego ciała. </small></a>
+                            <br><br><u>Producent: HALCAMP</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>Wałek do rehabilitacji</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/masazer1.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/masazer1.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                           <a class="card-text"><small> Wykorzystywany w rehabilitacji leczniczej pacjentów 
+                            dotkniętych chorobą reumatoidalną jak i zwyrodnieniową stawów kończyn dolnych 
+                            a także chorobami obwodowego układu nerwowego oraz układu krwionośnego.</small></a>
+                            <br><br><u>Producent: TYLMAX</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>Mata do masażu stóp Foot Massage Mat</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/masazer2.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/masazer2.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                           <a class="card-text"><small> Mata do masażu stóp stymuluje stopę, poprawia metabolizm i krążenie krwi, 
+                            łagodzi nerwobóle i zmęczenie mięśni. Korzystanie z maty do masażu stóp pozytywnie wpływa na odczuwanie
+                            stanu odprężenia przez użytkownika. Mata poprzez swoją formę imituje naturalne środowisko, powodując
+                            oddziaływanie podobne do chodzenia po kamykach, szyszkach, patykach. Pobudza i wywołuje odruchowe 
+                            skurcze obronne mięśni krótkich w stopach, co prowadzi do ich stopniowego wzmacniania, czego efektem
+                            jest prawidłowe wysklepienie podłużne i poprzeczne w stopach oraz korekcja koślawości pięt. 
+                            Mata stanowi jeden z elementów procesu gimnastyki korekcyjnej.</small></a>
+                            <br><br><u>Producent: MDH</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>STANDARD ROLLER wałek rehabilitacyjny do masażu</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/masazer3.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/masazer3.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                           <a class="card-text"><small> Idealny produkt do ćwiczeń rehabilitacyjnych, korekcyjnych jak i 
+                            do masażu rozluźniającego i relaksacyjnego. To prosty i bezpieczny przyrząd, wykorzystujący
+                            naszą własną masę ciała do samoczynnego rozluźniania tkanek mięśniowych. Zalecany dla osób 
+                            z bólami kręgosłupa w celu zmniejszenia dolegliwości, a także dla osób aktywnie uprawiających sporty, 
+                            w celu szybszej regeneracji powysiłkowej. Ćwiczenia z wykorzystaniem wałka zwiększają ukrwienie i
+                            elastyczność mięśni, likwidują cellulit, wysmuklają figurę i ujędrniają ciało. Produkt wykonany z
+                            pianki o podwyższonej twardości, odpornej na pot, brud, łatwy do czyszczenia.</small></a>
+                            <br><br><u>Producent: MDH</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>THERAPY ROLLER wałek rehabilitacyjny z wypustkami do masażu</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/masazer4.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/masazer4.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                            <a class="card-text"><small> Roler z wypustkami służy do intensywnego masażu ciała i mięśni, podczas pracy własnej
+                            i treningów indywidualnych. Rozluźnia napięte mięśnie i powięź oraz punkty spustowe, dzięki czemu stosowanie
+                            rolera przed i po treningu przyspiesza wydzielanie produktów przemiany materii, poprawia zdolność mięśni do
+                            pracy i regeneracji. Rolowanie pozwala także rozbić zgrubienia i wzmocnić mięśnie. Roler nie traci swojej 
+                            twardości, nie ściera się ani nie zniekształca nawet podczas intensywnego użytkowania przez osoby o dużej 
+                            masie do 180kg. Przyrząd jest poręczny, praktyczny i atrakcyjny wizualnie. Występuje w dwóch wersjach 
+                            kolorystycznych- czarnej i pomarańczowej.</small></a>
+                            <br><br><u>Producent: MDH</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>ACUPRESSURE MAT mata do akupresury</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/masazer5.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/masazer5.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                            <a class="card-text"><small>Acupressure Mat Mata do akupresury<br><br>
+                            • Relaksacja mięśni dolnego i górnego odcinka kręgosłupa,<br>
+                            • Łagodzenie stanów bólowych mięśni pleców,<br>
+                            • Zmniejszenie napięcia mięśni w okolicy szyi,<br>
+                            • Korzystnie wpływa na ogólne samopoczucie,<br><br>
+                            Skutecznie pomaga odprężyć się i zrelaksować zmęczone i zestresowane ciało. 
+                            Jest pomocna przy problemach z bólem pleców, szyi, kręgosłupa, napięciem i skurczami mięśni. 
+                            Masaż refleksologiczny stóp za pomocą maty opiera się na założeniu, że stymulowany jest przepływ 
+                            energii w ciele od stóp do głowy,
+                            co może zmniejszać pobudzenie współczulnego układu nerwowego, łagodzić lęk i sprzyjać rozluźnieniu.</small></a>
+                            <br><br><u>Producent: MDH</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>BALANCE PODS półkule sensoryczne</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/masazer6.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/masazer6.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                            <a class="card-text"><small>Półkule sensoryczne Qmed - Balance Pods<br><br>
+                            Półkule sensoryczne z kolcami do rehabilitacji stóp, ćwiczenia równowagi i
+                            treningu koordynacji ruchowej. Stożkowe kolce pobudzają zakończenia nerwowe, 
+                            rozluźniają je i odprężają. Służą do stymulacji czucia głębokiego, zmysłu dotyku.
+                            Idealne do ćwiczeń zarówno w domu jak i w placówkach dydaktycznych oraz gabinetach 
+                            rehabilitacyjnych. Półkula zapewnia różnorodny trening sensomotoryczny.<br><br>
+                            Wskazania: <br>
+                            • ćwiczenia koordynująco-stabilizujące,<br>
+                            • efektywne kształtowanie sylwetki i korekcja wad postawy,<br>
+                            • aktywizacja wielu grup mięśniowych poprzez kompleksowy trening całego ciała,<br></small></a>
+                            <br><br><u>Producent: MDH</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+    <div class="card border-light">
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>Rotor rehabilitacyjny – składany</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/rotory.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/rotory.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                            <a class="card-text"><small>Rotor posiada nakładki antypoślizgowe, które sprawiają, 
+                            że można go ustawić w dowolnym miejscu i nie wymaga dodatkowych stojaków. Zaopatrzony
+                            jest w bardzo prostą, płynną regulację oporu, która działa dzięki mechanizmowi śrubowemu.
+                            Dzięki wyposażeniu w wielofunkcyjny licznik istnieje możliwość kontroli czasu prowadzonego treningu, 
+                            ilości spalonych kalorii, ilości wykonanych obrotów oraz częstotliwości obrotów na minutę. 
+                            Jest to idealny przyrząd do rehabilitacji osób z dysfunkcjami kończyn górnych i dolnych. 
+                            Zastosowana opcja składania zapewnia łatwe przechowywanie rotora po zakończonych ćwiczeniach.</small></a>
+                            <br><br><u>Producent: ARMEDICAL</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters"> 
+            <div class="col-lg col-md-auto col-sm-auto col-auto">
+                <div class="card-block px-2">
+                    <div class="card-header text-white" style="background-color:#192943;"><a>Rotor medyczny do ćwiczeń rąk i nóg</a>
+                    </div>
+                    <div class="d-sm-none" style="min-width:200px;float:center;text-align:center;">
+                        <img src="/public/rotory1.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                    </div> 
+                    <div class="flex-container" style="width:100%;display:flex;">
+                        <div class="d-none d-sm-block" style="min-width:200px">
+                            <img src="/public/rotory1.png" class="img-fluid float-left mr-3 mt-2" style="width:200px;height:250px;"alt="">
+                        </div> 
+                        <div class="card-body" style="width:50% min-width-400px">
+                            <a class="card-text"><small>Solidny i estetyczny rotor rehabilitacyjny marki Viteacare 
+                            przeznaczony jest dla osób, u których nastąpi zanik siły mięśniowej bądź przykurcz 
+                            spowodowany długotrwałym unieruchomieniem. Wykorzystywany jest także w rehabilitacji osób,
+                            które wymagają przywrócenia funkcji motorycznych oraz ponownego nauczenia prawidłowego wzorca
+                            ruchowego utraconego poprzez uszkodzenie układu neurologicznego. </small></a>
+                            <br><br><u>Producent: MDH</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(function () {
+    $('#myTab li:last-child a').tab('show')
+  })
+</script>
+
+{% endblock %}

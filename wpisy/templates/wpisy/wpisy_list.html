@@ -1,0 +1,13 @@
+{% extends 'baza.html' %}
+
+{% block content %}
+    <h1>Lista wpisów</h1>
+    <div class="wpisy">
+        {% for wpis in wpisy %}
+            <div class="wpisy">
+                <h2><a href="#"> {{wpis.title}} </a></h2>
+                <p>{{ wpis.przycinanie }}</p>
+                <p>{{ wpis.date }}</p>
+        {% endfor %}
+    </div>
+{% endblock %}
